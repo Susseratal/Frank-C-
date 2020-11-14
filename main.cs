@@ -20,15 +20,11 @@ namespace HelloWorld
 
     static public void help() //this is like "def name():" in python. It has to be public so it can be accessed and it has to be static for some reason
     {
-      Console.WriteLine ("Welcome to the new, C# written, Frank program. ");
+      Console.WriteLine ("To make simple calculations, type 'calculate'. ");
       Console.WriteLine (" ");
-      Console.WriteLine ("If you want me to make a calculation, type 'calculate'. ");
+      Console.WriteLine ("To make a note, type 'make note'");
       Console.WriteLine (" ");
-      Console.WriteLine ("If you want me to make a note, please type 'make note'. (saving functionality in progress)");
-      Console.WriteLine (" ");
-      Console.WriteLine ("If you want me to tell the date and time, just type 'show time'. ");
-      Console.WriteLine (" ");
-      Console.WriteLine ("If you want to exit the program, please type 'quit'. Your data will be automatically saved. ");
+      Console.WriteLine ("To check your notes, type 'show notes'");
       Console.WriteLine (" ");
     }
     static void Main() //This is the start of the main program
