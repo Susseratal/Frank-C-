@@ -6,7 +6,8 @@ using System.Collections.ObjectModel;
 namespace HelloWorld
 {
 
-  class Notebook //this is a class
+  class Notebook 
+  //this is a class
   {
     private List<string> notes = new List<string>(); //<> = type of information in list e.g. <integer> or <string>
     public void addNote(string value)
@@ -15,7 +16,8 @@ namespace HelloWorld
     }
     public ReadOnlyCollection<string> ReadOnly => notes.AsReadOnly();
   }
-  class Program //this is also a class
+  class Program 
+  //this is also a class
   {
 
     static public void help() //this is like "def name():" in python. It has to be public so it can be accessed and it has to be static for some reason
